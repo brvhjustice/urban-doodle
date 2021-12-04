@@ -1,0 +1,415 @@
+body {
+    font-family: "Montserrat";
+  }
+
+/* p{
+  font-size: 2rem;
+} */
+
+/* h1{
+  font-size: 4rem;
+} */
+
+
+
+  
+/* Navigation Bar */
+
+.navigation-bar{
+    background-image: url(../images/1112.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item {
+    text-align: right;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.nav-link {
+    font-size: 1rem;
+    font-family: "Montserrat-Light";
+  }
+
+.cd {
+  justify-content: right;
+}
+
+.donate{
+    text-decoration: none;
+    text-align: center;
+    background-color: #8DFA49;
+    border-radius: 3px;
+    width: 80px;
+}
+
+
+
+
+
+/* Top Heading */
+
+.top-heading{      
+    font-size: 4.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.top-head{
+padding: 2.5rem 0 2.5rem 7rem;
+color: #fff;
+}
+
+
+/* Buttons */
+
+.voln-button {
+    margin: 3% 2% 2% 0;
+}
+
+
+
+
+
+
+  /* About Section */
+
+.student{
+    width: 30rem;
+  }
+
+.about-section{
+  margin: 5rem 0 2.5rem 10rem;
+}
+
+.about-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.about-paragraph{
+  font-size: 1.5rem;
+}
+ 
+.we-do{
+  color: darkorange;
+}
+
+.about-wt-we-do{
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+  width: 30rem;
+  margin-right: 10rem;
+  /* padding-top: 2rem; */
+}
+
+
+
+/* Overview Section */
+
+
+
+.overview{
+  
+  margin: 3rem 0 5rem 10rem;
+  /* margin: 10rem;  */
+}
+
+.overview-position{
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  float: left;
+  width: 30rem;
+  padding-right: 5rem;
+  /* margin-left: 10rem; */
+}
+
+.overview-heading{
+  /* font-family: 'Montserrat', sans-serif;
+  font-size: 5rem;*/
+  color: darkorange; 
+  text-align: right;
+  
+}
+
+.overview-paragraph{
+  /* width: 30rem; */
+  font-size: 1.5rem;
+}
+
+.scope{
+  color: #000;
+}
+
+.over{
+  margin-top: 8rem;
+}
+
+/* Volunteer Section */
+
+.volunteer{
+  font-family: 'Montserrat', sans-serif;
+  background-color: darkorange;
+  color: #000;
+  text-align: center;
+  padding: 2.5rem 0;
+
+}
+
+.volunteer-heading{
+  font-size: 4.5rem;
+  
+ font-weight: bolder;
+}
+
+.volunteer-paragraph{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* Team Section */
+
+.team-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 5rem;
+}
+
+.image1{
+  background-image: url(../images/1.jpeg);
+  background-color: #000;
+}
+/* Footer Section */
+
+
+
+
+footer {
+    text-align: center;
+    background-color: darkorange;
+    font-size: 15px;
+  	color: #fff;
+    margin-bottom: 0;
+}
+
+
+
+.social{
+  font-size: 5rem;
+  padding: 12rem;
+}
+
+.fab{
+  color: #fff;
+  padding: 2rem 2rem;
+  font-size: 2rem;
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+@media (max-width: 1028px)  {
+
+    /* Navigation Bar */
+.top-heading{      
+    font-size: 2.5rem;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.top-head{
+  padding-left: 2rem;
+    color: #fff;
+}
+
+.navigation-bar{
+    background-attachment: fixed;
+}
+
+.navbar{
+  justify-content: right;
+}
+
+
+.navbar-brand{
+  position: relative;
+  right: 2%;
+}
+
+
+.donate-item{
+  width: 50px;
+  position: relative;
+  left: 50%;
+}
+
+
+  /* About Section */
+
+  .about{
+    text-align: center;
+  }
+
+  .student{
+    width: 20rem;
+    margin: 15px auto;
+    display: block;
+    
+  }
+
+  .about-wt-we-do{
+    margin-right: auto;
+  }
+
+.about-paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+/* Top Heading */
+
+.top-heading{      
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.top-head{
+padding: 0 0 2.5rem 2rem;
+color: #fff;
+}
+
+
+/* Buttons */
+/* change large buttons to small buttons */
+.voln-button {
+  margin: 10% 2% 2% 0;
+}
+
+
+
+
+
+
+/* About Section */
+
+.student{
+  width: 20rem;
+}
+
+.about-section{
+margin: auto;
+}
+
+.about-heading{
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+font-weight: bolder;
+}
+
+.about-paragraph{
+font-size: 1rem;
+}
+
+.we-do{
+color: darkorange;
+}
+
+.about-wt-we-do{
+font-family: 'Montserrat', sans-serif;
+float: none;
+width: auto;
+}
+
+
+
+/* Overview Section */
+
+
+.overview{
+margin: auto;
+}
+
+.overview-position{
+font-family: 'Montserrat', sans-serif;
+float: none;
+width: auto;
+text-align: center;
+padding: 0;
+}
+
+.overview-heading{
+  
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+font-weight: bolder;
+text-align: center;
+/* font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+color: darkorange;
+text-align: center;
+margin-left: auto; */
+}
+
+.overview-paragraph{
+/* text-align: center; */
+/* width: 17rem; */
+font-size: 1rem;
+/* margin-left: auto; */
+}
+
+.scope{
+color: #000;
+}
+
+
+/* Volunteer Section */
+
+.volunteer{
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+background-color: darkorange;
+color: #000;
+padding: 1rem 0;
+
+}
+
+.volunteer-heading{
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+.volunteer-paragraph{
+font-size: 0.7rem;
+color: #fff;
+}
+
+/* Team Section */
+
+.team-heading{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+padding-top: 0.5rem;
+}
+
+/* .team-image{
+  width: 15rem;
+} */
+
+
+}
+
